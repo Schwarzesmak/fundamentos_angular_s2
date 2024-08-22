@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HolaComponent } from './pages/hola/hola.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactoComponent,
-    HolaComponent
+    HolaComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
